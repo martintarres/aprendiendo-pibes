@@ -1,0 +1,47 @@
+Caro Gatica@Caro MINGW64 ~/Desktop/Ing Software/Pruebas Git/aprendiendo-pibes (rama6)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+
+Caro Gatica@Caro MINGW64 ~/Desktop/Ing Software/Pruebas Git/aprendiendo-pibes (master)
+$ git branch putos
+
+Caro Gatica@Caro MINGW64 ~/Desktop/Ing Software/Pruebas Git/aprendiendo-pibes (master)
+$ git checkout putos
+Switched to branch 'putos'
+
+Caro Gatica@Caro MINGW64 ~/Desktop/Ing Software/Pruebas Git/aprendiendo-pibes (putos)
+$ git add README.md
+
+Caro Gatica@Caro MINGW64 ~/Desktop/Ing Software/Pruebas Git/aprendiendo-pibes (putos)
+$ git status
+On branch putos
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   README.md
+
+
+Caro Gatica@Caro MINGW64 ~/Desktop/Ing Software/Pruebas Git/aprendiendo-pibes (putos)
+$ git commit -m "readme puto franz"
+[putos 5b4ac56] readme puto franz
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+Caro Gatica@Caro MINGW64 ~/Desktop/Ing Software/Pruebas Git/aprendiendo-pibes (putos)
+$ git pull origin putos
+fatal: Couldn't find remote ref putos
+
+Caro Gatica@Caro MINGW64 ~/Desktop/Ing Software/Pruebas Git/aprendiendo-pibes (putos)
+$ git push origin putos
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/martintarres/aprendiendo-pibes.git                                                                                                         /'
+
+Caro Gatica@Caro MINGW64 ~/Desktop/Ing Software/Pruebas Git/aprendiendo-pibes (putos)
+$ git push origin putos
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 303 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/martintarres/aprendiendo-pibes.git
+ * [new branch]      putos -> putos
