@@ -23,3 +23,5 @@ y esta donde sale?
 esto va en la rama que se llama "pasos-para-merge" para despues hacer el merge. primeramente no se deberia ver en el master!
 
 ahora voy a hacer el merge 
+
+// que se io
